@@ -1,55 +1,35 @@
-# Prerequisites
-*.d
+# Credentials and local account data
+cookies*.txt
+*cookie*.txt
+*cookie*.json
+*.cookies
+secrets/
+.env
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Downloaded media and runtime state
+*.mp4
+*.m4v
+*.mkv
+*.webm
+*.mp3
+*.m4a
+*.wav
+*.flac
+.aipc_history
+aipc_downloads/
+logs/
+*.log
+*.db
+*.sqlite*
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
+# Build and Python artifacts
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+*.obj
+*.o
 *.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+*.py[cod]
+__pycache__/
+.venv/
+venv/
+build/
+dist/
